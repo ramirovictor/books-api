@@ -1,0 +1,61 @@
+HELP.md
+target/
+/target
+/target/**
+
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# === Security / Certs ===
+src/main/resources/keystore.p12
+*.jks
+*.p12
+*.pem
+*.key
+*.crt
+
+# === Logs ===
+logs/
+*.log
+
+# === H2 (se algum dia usar file mode) ===
+*.mv.db
+*.h2.db
+
+# === SO / lixo ===
+.DS_Store
+Thumbs.db
+
+# === Variáveis (se algum dia criar) ===
+.env
+.env.*
+
