@@ -157,9 +157,19 @@ Web console to view the H2 in-memory database:
 
 ---
 
-## 🎨 React Frontend
+## 🎨 Frontends
 
-**📦 Frontend Repository**: [https://github.com/ramirovictor/books-frontend](https://github.com/ramirovictor/books-frontend)
+Este backend está sendo consumido por:
+
+1. **React + Vite + Tailwind**  
+   Repo: https://github.com/ramirovictor/books-frontend  
+   URL local: http://localhost:5173
+
+2. **Next.js 14 + Material UI**  
+   Repo: https://github.com/ramirovictor/books-next  
+   URL local: http://localhost:3000
+
+> Ambos consomem `https://localhost:8443/api/v1/books` (aceitar o certificado antes).
 
 ### How to run
 
